@@ -1,0 +1,39 @@
+li a {
+    color: green;
+}
+
+body {
+    background: white url("images/download.jpg") no-repeat ;
+    background-size: 100%;
+    color: white;
+}
+
+#content p {
+  font-size: 72px;
+  font-family:cursive;
+  background: -webkit-linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+    /*background: -webkit-linear-gradient(red, yellow);*/
+    border: 1px solid ;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.login{
+    margin-left:250px;
+}
+
+.signup{
+    margin-top:100px;
+}
